@@ -1,0 +1,91 @@
+:root {
+  --font-family-heading: 'Roboto Mono', monospace;
+  --font-family-paragraph: 'Roboto Mono', monospace;
+  --font-family-monospace: 'Roboto Mono';
+  --base-color: {{ .Site.Params.baseColor | default "#ffffff" }};
+  --base-offset-color: {{ .Site.Params.baseOffsetColor | default "#eaeaea" }};
+  --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
+  --heading-color: {{ .Site.Params.headingColor | default "#1c1b1d" }};
+  --text-color: {{ .Site.Params.textColor | default "#4e5157" }};
+  --dot-color: {{ .Site.Params.dotColor | default "#7b16ff" }};
+}
+
+$breakpoints: (
+  'small': 767px,
+  'medium': 992px,
+  'large': 1200px,
+);
+
+@import 'normalize';
+@import 'breakpoints';
+@import 'header';
+@import 'footer';
+@import 'content';
+@import 'intro';
+@import 'summary';
+@import 'author';
+@import 'pagination';
+@import 'main-menu';
+@import 'main-menu-mobile';
+@import 'pygments/github';
+
+html, body {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--base-color);
+  font-family: var(--font-family-paragraph);
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+  overflow-x: hidden;
+  @include breakpoint('small') {
+    padding: 50px;
+  }
+  
+}
+
+.default
+{
+  &.frame {
+    min-height: 100vh;
+    border: 13px solid #00c2c2;
+  }
+}
+
+.homepage{
+  &.frame {
+    min-height: 100vh;
+    border: 13px solid #00c2c2;
+    border-right: 0px !important;
+  }
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+::-webkit-scrollbar {
+	width: 13px;
+  background-color:  var(--highlight-color);
+}
+
+::-webkit-scrollbar-track {
+	background-color: transparent;
+	border-radius: 7px;
+  width: 7px;
+  
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d9ffff;
+	border-radius: 20px;
+	border: 2px solid transparent;
+  width: 7px;
+	background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #f0ffff;
+}
