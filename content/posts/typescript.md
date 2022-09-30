@@ -68,7 +68,7 @@ So, if you ask me, I feel Typescript should be under your belt as a developer.
 ## Where to learn Typescript?
 
 Here, watch our lord and savior, Ben Awad. This 20 min video should get you started well.
-<iframe width="560" height="315" src="https://www.youtube.com/embed/se72XMlG1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe  width="100%" height="100%" src="https://www.youtube.com/embed/se72XMlG1Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Conclusion
 Hopefully, this blog convinced you to at least try Typescript or send it to your boss so you get permission to use Typescript. Types mean less run-time errors mean less downtime which means money. For developers, you will still lose sleep, not because of production errors, but of implementing types themselves. But trust me, once you start using Typescript, there is no going back (Every Typescript developer ever). If you are still not convinced, I don't know what to tell you. You are probably a Javascript fanboy.
