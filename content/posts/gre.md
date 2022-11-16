@@ -18,7 +18,7 @@ TOEFL is a standardized test to measure the English language ability of non-nati
 
 ## How to prepare for GRE and TOEFL?
 
-I prepared for GRE and TOEFL for 3 motnhs. Scored 322 in GRE and 114 in TOEFL. I used the following resources to prepare for GRE and TOEFL.
+I prepared for GRE and TOEFL for 3 months. Scored 322 in GRE and 114 in TOEFL. I used the following resources to prepare for GRE and TOEFL.
 
 ### GRE
 
