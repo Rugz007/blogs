@@ -1,5 +1,5 @@
 ---
-title: "Constellation - Automated MLOps Platform"
+title: "Constellation - Automated MLOps Platform - Overview"
 date: 2024-10-31
 description: "Constellation is an automated MLOps platform that helps data scientists and ML engineers to build, deploy, and scale machine learning models."
 ---
@@ -8,6 +8,15 @@ description: "Constellation is an automated MLOps platform that helps data scien
 ML being a repetitive process can be a headache and let's not get started with collaborations. With Constellation, you can do everything from data visualization w/ dynamic graphs to one-click deployments in one place.
 
 ![Constellation](https://dqy38fnwh4fqs.cloudfront.net/UHR8ANBP6RRNAR9FEBQADJ6LJMRA/projects/constellation.webp)
+
+
+
+# Images
+![Constellation](https://i.imgur.com/hd6wlFL.png)
+![Constellation](https://i.imgur.com/FwKnHQu.png)
+![Constellation](https://i.imgur.com/gar5KZh.png)
+![Constellation](https://i.imgur.com/Exqd07s.png)
+![Constellation](https://i.imgur.com/Nm0qTGv.png)
 
 
 ## What is Constellation?
