@@ -7,11 +7,6 @@ description: "LM Studio is a platform helps you run LLMs on your own machine."
 ## TL;DR
 Think of LM Studio as a central hub of all your big AI models which run on your machine, fully private and secure.
 
-
-{{< rawhtml >}}
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">After months of work, and with the help of our awesome community, we&#39;re excited to finally share LM Studio 0.3.0! 🎉<br><br>🔥 What&#39;s new:<br><br>- Built-in Chat with Documents, 100% offline<br>- OpenAI-like &#39;Structured Outputs&#39; API with any local model<br>- Total UI revamp (with dark/light/sepia… <a href="https://t.co/x8e48ObXLc">pic.twitter.com/x8e48ObXLc</a></p>&mdash; LM Studio (@LMStudioAI) <a href="https://twitter.com/LMStudioAI/status/1826680869773357513?ref_src=twsrc%5Etfw">August 22, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-{{< /rawhtml >}}
-
 ## What even is LM Studio?
 LM Studio is a desktop app for developing and experimenting with LLMs on your computer. It offers a desktop application for running local LLMs with a familiar chat interface. Additionally, it includes search and download functionality via Hugging Face 🤗, a local server that can listen on OpenAI-like endpoints, and systems for managing local models and configurations.
 
